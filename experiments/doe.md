@@ -37,6 +37,8 @@ Compare:
 
 ## 6. Baseline Results
 
+DistilBERT (2 epochs): Accuracy 0.2837, Macro-F1 0.2578 (LIAR test)
+
 ### TF-IDF + Logistic Regression
 - Accuracy: **0.2432**
 - Macro-F1: **0.2098**

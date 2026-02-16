@@ -1,0 +1,8 @@
+{
+  "model": "distilbert-base-uncased",
+  "dataset": "liar",
+  "split": "test",
+  "accuracy": 0.2837100545596259,
+  "macro_f1": 0.2578463495054527,
+  "epochs": 2
+}
