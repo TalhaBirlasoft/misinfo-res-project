@@ -1,0 +1,7 @@
+{
+  "model": "tfidf_lr",
+  "dataset": "liar",
+  "split": "test",
+  "accuracy": 0.24318004676539362,
+  "macro_f1": 0.20982797043548396
+}
