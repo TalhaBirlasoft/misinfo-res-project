@@ -1,0 +1,24 @@
+{
+  "model": "tfidf_lr",
+  "dataset": "liar",
+  "n": 300,
+  "perturbation": {
+    "type": "rule_based_paraphrase_like",
+    "seed": 42,
+    "p_drop": 0.12,
+    "p_swap": 0.08,
+    "p_punct": 0.25
+  },
+  "original": {
+    "accuracy": 0.23666666666666666,
+    "macro_f1": 0.2142444383823694
+  },
+  "perturbed": {
+    "accuracy": 0.24666666666666667,
+    "macro_f1": 0.20475656697591763
+  },
+  "drop": {
+    "accuracy": -0.010000000000000009,
+    "macro_f1": 0.00948787140645177
+  }
+}

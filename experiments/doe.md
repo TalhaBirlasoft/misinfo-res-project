@@ -39,6 +39,14 @@ Compare:
 
 DistilBERT (2 epochs): Accuracy 0.2837, Macro-F1 0.2578 (LIAR test)
 
+Robustness (rule-based paraphrase-like, n=300):
+
+Original: acc 0.2367, macro-F1 0.2142
+
+Perturbed: acc 0.2467, macro-F1 0.2048
+
+Macro-F1 drop: 0.00949
+
 ### TF-IDF + Logistic Regression
 - Accuracy: **0.2432**
 - Macro-F1: **0.2098**
