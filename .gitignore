@@ -1,0 +1,17 @@
+# Python / virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# Training outputs / checkpoints
+experiments/bert_out/
+experiments/**/checkpoint-*/
+*.pt
+*.safetensors
+
+# Data (optional: keep only small processed files if you want)
+data/
+!data/.gitkeep
+
+# OS
+.DS_Store
